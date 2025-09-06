@@ -89,11 +89,12 @@ function takeCommand(message){
         }
     else
     {
-        let finalText="this is what I found on inernet regarding" + message.replace("shipra","") || message.replace("shifra","")
+        let finalText="this is what I found on inernet regarding" + message.replace("lyra","") || message.replace("liraa","")
 
         speak(finalText);
-        window.open(`https://www.google.com/search?q=${message.replace("shipra","")}` , "_blank");
+        window.open(`https://www.google.com/search?q=${message.replace("lyra","")}` , "_blank");
 
     }
 }
+
  
